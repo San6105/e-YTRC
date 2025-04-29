@@ -1,0 +1,22 @@
+atmel studio(6.0 version) steps:
+1.	open atmel studio(6.0 version)
+2.	click new project, then name your file it shows under the pop up box
+3.	then correctly select device 2560 (Atmega 2560), click& ok
+4.	then one empty workspace is shows
+5.	write your codes in the workspace 
+6.	then in the top menu bar select build & then build your your code
+7.	when it shows error msg like(lcd.h no directory)
+8.	go to google download lcd.h for firebird 5 robot 
+9.	then copy the downloaded file & paste to where you stored the new code
+10.	again rebuild the code using above build steps
+11.	the output shows 1 build successed......
+AVR DUDE 2560 steps:
+1.	download avr dude 2560 file in google
+2.	the downloaded file is zip type then extraxt it
+3.	after extracting open the file 
+4.	then launch the cmd prompt in the same file above address bar
+5.	in the cmd prompt type stkrun and copy or drag the hex file (Ex: stkrun c/users/san/documents/atmel studio/file name../debug/file name.hex)
+6.	the hex file is located where you saved that code file (Ex: c/users/san/documents/atmel studio/file name../debug/file name.hex)
+7.	then enter it 
+8.	when upload your code into firebird 5 robot turn on the bot otherwise the code can't upload in the bot
+9.	finally enjoy your ride sit on your bot (just for joke       )
